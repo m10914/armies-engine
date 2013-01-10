@@ -1,0 +1,155 @@
+
+[CONFIG]
+script scripts/testlevel.script
+spellsallow 1
+#
+
+[OBJECT]
+Name trigger01
+Type TRG
+Graphics gamedata/dummy
+x 797
+y 113
+z 1
+bb 91 86
+onenter TRIGGER_1
+onleave TRIGGER_2
+triggeronce false
+#
+
+
+[OBJECT]
+Name background_3
+Type DEC
+Graphics gamedata/background_0_3
+x -172
+y -279
+z 0.3
+zindex 0
+#
+
+
+[OBJECT]
+Name background_2
+Type DEC
+Graphics gamedata/background_0_2
+x -96
+y -20
+z 0.6
+zindex 1
+#
+
+
+[OBJECT]
+Name background_1
+Type DEC
+Graphics gamedata/background_0_1
+x 4
+y 0
+z 1
+zindex 2
+#
+
+
+[OBJECT]
+Name standingman
+Type DEC
+Graphics gamedata/testsprite
+x 300
+y 67
+z 1
+zindex 50
+#
+
+
+[OBJECT]
+Name player
+Type CHR
+Graphics gamedata/mageapprentice
+bb 62 60
+Health 999
+x 206
+y 31
+z 1
+zindex 100
+active 
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 0
+y 0
+z 1
+bb 407 30
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 534
+y 0
+z 1
+bb 468 30
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1003
+y 2
+z 1
+bb 496 31
+zindex 100
+#
+
+
+[OBJECT]
+FromLibrary TESTENEMY
+x 599
+y 30
+z 1
+zindex 100
+active 
+#
+
+
+[OBJECT]
+Name testobject2
+Type DEC
+Graphics gamedata/testanim
+x 813
+y 107
+z 1
+zindex 100
+#
+
+
+[OBJECT]
+FromLibrary TESTENEMY
+x 652
+y 30
+z 1
+zindex 100
+active 
+#
+
+
+[OBJECT]
+FromLibrary TESTENEMY
+x 707
+y 32
+z 1
+zindex 100
+active 
+#
+
+

@@ -1,0 +1,69 @@
+// here lies scripts for CScript class
+// testlevel.script is an example of script syntax
+//
+// this file is executed by comman CScript::Load()
+//
+// this block applies immidiately after loading,
+// others are being stored
+
+[MAIN]
+var i int 0
+var str string test0 test1 test2
+screenset Images/mainscreen.png
+screenon
+hidebuttons
+hidestripes
+stopcontrol
+timer 1 INTRO_1
+showbuttons
+startcontrol
+#
+
+[INTRO_1]
+blackout
+screenoff
+showstripes
+play player Stand
+timer 4 INTRO_2
+goto camera 1050 200 1
+showtext Long time passed since i last saw Emmen-Narr. Still, it was as beautiful as many years ago.
+#
+
+[INTRO_2]
+hidetext
+startcamerafollow
+play player Walk
+set i 10
+set str tested
+goto player 350 30 2 INTRO_3
+#
+
+[INTRO_3]
+showbuttons
+hidestripes
+startcontrol
+#
+
+
+//------
+// trigger scripts
+[TRIGGER_1]
+showstripes
+showtext Trigger worked!
+spawn TESTENEMY 900 300
+#
+
+[TRIGGER_2]
+hidestripes
+hidetext
+#
+//
+//------
+
+
+[ENDLEVEL]
+loadlevel levels/testlevel2.lev
+#
+
+//stupid
+

@@ -1,0 +1,22 @@
+// here lies scripts for CScript class
+// testlevel.script is an example of script syntax
+//
+// this file is executed by comman CScript::Load()
+//
+// this block applies immidiately after loading,
+// others are being stored
+
+[MAIN]
+blackout
+startcamerafollow
+showbuttons
+startcontrol
+#
+
+
+[NEXTLEVEL]
+loadlevel levels/
+#
+
+//stupid
+

@@ -1,0 +1,148 @@
+//---------------------------------------------------------------
+// Level file for SPELL engine v.0.1d
+//---------------------------------------------------------------
+// Syntax: 
+// [block]
+// param val
+// param val
+// #endofblock
+
+
+
+
+[CONFIG]
+camera_max_x 1100
+camera_min_x 250
+script scripts/testlevel.script
+#
+
+
+
+
+//-------------------------------------
+// D E P T H   L E V E L   3
+//-------------------------------------
+[OBJECT_0]
+Name background_3
+Type DEC
+Graphics gamedata/background_0_3
+x 0
+y 0
+z 0.3
+#
+
+//TODO: add some clouds here
+
+
+//-------------------------------------
+// D E P T H   L E V E L   2
+//-------------------------------------
+//next background
+[OBJECT_1]
+Name background_2
+Type DEC
+Graphics gamedata/background_0_2
+x 0
+y 0
+z 0.6
+#
+
+//TODO: some distant actors, animations etc
+
+
+
+//-------------------------------------
+// D E P T H   L E V E L   1
+//-------------------------------------
+//first plan
+[OBJECT_2]
+Name background_1
+Type DEC
+Graphics gamedata/background_0_1
+x 0
+y 0
+z 1
+#
+
+[OBJECT_3]
+Name standingman
+Type DEC
+Graphics gamedata/testsprite
+x 230
+y 40
+z 1
+#
+
+
+[OBJECT_4]
+Name player
+Type CHR
+Graphics gamedata/mageapprentice
+x 230
+y 230
+z 1
+bb 50 60
+Health 999
+#
+
+[OBJECT_5]
+FromLibrary TESTENEMY
+x 550
+y 230
+z 1
+#
+
+[OBJECT_6]
+Name testobject2
+Type DEC
+Graphics gamedata/testanim
+x 650
+y 20
+z 1
+#
+
+[OBJECT_7]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 0
+y 0
+z 1
+bb 900 30
+#
+
+[OBJECT_8]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 500
+y 0
+z 1
+bb 1000 30
+#
+
+[OBJECT_9]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1000
+y 0
+z 1
+bb 1000 60
+#
+
+[TRIGGER]
+Name trigger01
+Type TRG
+Graphics gamedata/dummy
+x 900
+y 0
+z 1
+bb 40 1000
+onenter TRIGGER_1
+onleave TRIGGER_2
+triggeronce false
+#
+
+
+//EOF

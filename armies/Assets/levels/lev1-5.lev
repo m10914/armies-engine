@@ -1,0 +1,333 @@
+
+[CONFIG]
+script scripts/lev1-5.script
+spellsallow 0
+cameraMax 1480
+#
+
+[OBJECT]
+Name ground
+Type TRG
+Graphics gamedata/dummy
+x 138
+y 150
+z 1
+Rotation 0
+bb 801 100
+onenter RESTART
+triggeronce 
+#
+
+
+[OBJECT]
+Name sky
+Type DEC
+Graphics gamedata/sky-blue
+x -172
+y -52
+z 0.3
+Rotation 0
+zindex 0
+#
+
+
+[OBJECT]
+Name ground
+Type TRG
+Graphics gamedata/dummy
+x 1684
+y -7
+z 1
+Rotation 0
+bb 83 131
+onenter NEXTLEVEL
+triggeronce 
+#
+
+
+[OBJECT]
+Name bg
+Type DEC
+Graphics gamedata/lev1/bg_1_3
+x -144
+y -249
+z 0.4
+Rotation 0
+zindex 1
+#
+
+
+[OBJECT]
+Name ground
+Type DEC
+Graphics gamedata/lev1/5
+x 0
+y 0
+z 1
+Rotation 0
+zindex 2
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 4
+y 493
+z 1
+Rotation 0
+bb 253 30
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 460
+y 469
+z 1
+Rotation 0
+bb 58 30
+zindex 100
+#
+
+
+[OBJECT]
+Name player
+Type CHR
+Graphics gamedata/mageapprentice
+bb 62 60
+Health 999
+x 21
+y 531
+z 1
+Rotation 0
+zindex 100
+active 
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 589
+y 465
+z 1
+Rotation 0
+bb 50 30
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x -9
+y 493
+z 1
+Rotation 0
+bb 15 641
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 328
+y 477
+z 1
+Rotation 0
+bb 58 30
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 840
+y 365
+z 1
+Rotation 34
+bb 165 18
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 975
+y 286
+z 1
+Rotation 25
+bb 165 18
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1129
+y 231
+z 1
+Rotation 18.7
+bb 121 18
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1247
+y 205
+z 1
+Rotation 3
+bb 265 18
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1495
+y 165
+z 1
+Rotation 28
+bb 107 18
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1554
+y 77
+z 1
+Rotation 57
+bb 158 18
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1654
+y -27
+z 1
+Rotation 32.09
+bb 158 18
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1786
+y -56
+z 1
+Rotation 0
+bb 7 848
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 842
+y 406
+z 1
+Rotation -23.7
+bb 21 18
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 705
+y 450
+z 1
+Rotation 0
+bb 58 30
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1180
+y 212
+z 1
+Rotation 2.2000000000000455
+bb 133 78
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1194
+y 254
+z 1
+Rotation 54.549999999999955
+bb 54 56
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1240
+y 262
+z 1
+Rotation 54
+bb 54 56
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1339
+y 220
+z 1
+Rotation 93.5
+bb 135 117
+zindex 100
+#
+
+

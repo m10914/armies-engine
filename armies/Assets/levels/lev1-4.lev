@@ -1,0 +1,137 @@
+
+[CONFIG]
+script scripts/lev1-4.script
+spellsallow 0
+cameraMax 1200
+#
+
+[OBJECT]
+Name ground
+Type TRG
+Graphics gamedata/dummy
+x 1374
+y 749
+z 1
+Rotation 0
+bb 56 139
+onenter NEXTLEVEL
+triggeronce 
+#
+
+
+[OBJECT]
+Name sky
+Type DEC
+Graphics gamedata/sky-blue
+x -172
+y -119
+z 0.3
+Rotation 0
+zindex 0
+#
+
+
+[OBJECT]
+Name bg
+Type DEC
+Graphics gamedata/lev1/bg_1_2
+x -140
+y -247
+z 0.4
+Rotation 0
+zindex 1
+#
+
+
+[OBJECT]
+Name ground
+Type DEC
+Graphics gamedata/lev1/4
+x 4
+y 0
+z 1
+Rotation 0
+zindex 2
+#
+
+
+[OBJECT]
+Name player
+Type CHR
+Graphics gamedata/mageapprentice
+bb 62 60
+Health 999
+x 9
+y 432
+z 1
+Rotation 0
+zindex 100
+active 
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 3
+y 396
+z 1
+Rotation 0
+bb 915 30
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1230
+y 714
+z 1
+Rotation 0
+bb 330 30
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 1442
+y 741
+z 1
+Rotation 0
+bb 19 695
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x -12
+y 391
+z 1
+Rotation 0
+bb 19 695
+zindex 100
+#
+
+
+[OBJECT]
+Name ground
+Type PHY
+Graphics gamedata/dummy
+x 785
+y 508
+z 1
+Rotation -45.35000000000002
+bb 546 51
+zindex 100
+#
+
+
